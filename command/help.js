@@ -17,26 +17,26 @@ exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerN
 
 PROSES HITUNG MUNDUR IDUL FITRI 🌛 
 ${mundur}
-
+▓▓▓▓▓🆆🅴🅻🅲🅾🅼🅴▓▓▓▓▓▓
 *STATISTICS*
  • Upload : ${upload}
  • Downloads : ${download}
 
-*BOT INFO*
- • Creator : ${ownerName}
- • Bot Name : ${botName}
- • Time : ${jam}
- • Date : ${tanggal(new Date())}
- • Runtime : ${runtime(process.uptime())}
+┏━━━━━━《*BOT INFO*》━━━━━━━
+┃• Creator : ${ownerName}
+┃ • Bot Name : ${botName}
+┃• Time : ${jam}
+┃• Date : ${tanggal(new Date())}
+┃• Runtime : ${runtime(process.uptime())}
+┗━━━━━━━━━━━━━━━━━━━━━
 
-*USER INFO*
- • Name : ${pushname !== undefined ? pushname : '-'}
- • Status : ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
- • Limit : ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
- • Limit Game : ${isCreator ? 'Unlimited' : cekGLimit(sender, gcount, glimit)}
- • Balance : ${getBalance(sender, balance)}
- • Role : ${role}
- 
+┏━━━━━━《*USER INFO*》━━━━━━━━━━━━
+┃ • Name : ${pushname !== undefined ? pushname : '-'} ┃• Status : ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
+┃ • Limit : ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
+┃ • Limit Game : ${isCreator ? 'Unlimited' : cekGLimit(sender, gcount, glimit)}
+┃ • Balance : ${getBalance(sender, balance)}
+┃ • Role : ${role}
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━
  
 *MAIN MENU*${petik}
  • ${prefix}menu
